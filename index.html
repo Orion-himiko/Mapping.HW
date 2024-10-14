@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+
+    <body>
+        <h1>Mapping</h1>
+        <p id="p1"></p>
+        <p id="p2"></p>
+
+        <script>
+            var a= [43, 26, 76, 43, 83, 28, 54]
+            document.getElementById('p1').innerHTML= "Original Array: "+ a;
+            function multiply(x){
+               return x*5;
+             }
+
+             var b= a.map(multiply)
+             document.getElementById('p2').innerHTML= "Updated Array: "+ b;
+        
+        </script>
+    </body>
+</html>
